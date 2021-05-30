@@ -1,8 +1,9 @@
 import ConnectionStatus from './ConnectionStatus.svelte';
-import { isOnline, isOffline } from './store';
+import { isOnline, isOffline, setSettings } from './store';
 
 export {
     ConnectionStatus,
     isOnline,
     isOffline,
+    setSettings,
 };

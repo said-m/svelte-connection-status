@@ -1,7 +1,7 @@
 {
   "name": "svelte-connection-status",
   "description": "Basic Svelte component and stores to detect offline & online changes",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "main": "dist/index.js",
   "module": "dist/index.mjs",

@@ -1,0 +1,39 @@
+{
+  "name": "svelte-connection-status",
+  "description": "Basic Svelte component and stores to detect offline & online changes",
+  "version": "1.0.0",
+
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepack": "yarn build",
+    "postpack": "rm -rf ./dist"
+  },
+
+  "author": "Said Magomedov <saids.inbox@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/said-m/svelte-connection-status",
+  "keywords": [
+    "svelte",
+    "online",
+    "offline",
+    "network",
+    "connection"
+  ],
+
+  "devDependencies": {
+    "rollup": "^2.50.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.38.2"
+  }
+}

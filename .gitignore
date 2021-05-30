@@ -1,0 +1,12 @@
+# node.js
+**/node_modules
+
+# builds
+**/dist
+**/build
+
+# tests
+**/coverage
+
+# logs
+**/*.log
